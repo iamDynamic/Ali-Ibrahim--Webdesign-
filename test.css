@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: cursive;
+    background-color: #000;
+}
+.menuopen{
+    background-color: #000;
+    height: 100vh;
+    color: #fff;
+}
+.menuopen nav {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    cursor: pointer;
+}
+.menuopen aside img{
+    height: 700px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex section{
+    margin-left: 20px;
+    display: grid;
+}
+.flex section h1{
+    font-size: 50px;
+}
+section main p{
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+}
+section main p:hover {
+    text-decoration: underline;
+}

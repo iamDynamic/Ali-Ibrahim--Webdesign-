@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+body {
+    color: #fff;
+}
+
+nav,
+section {
+    display: flex;
+}
+
+nav {
+    background-color: #000;
+    padding: 20px;
+}
+.menu{
+    cursor: pointer;
+}
+nav section img {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+
+nav section h1 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+nav main {
+    margin-left: 1100px;
+}
+
+.p1,.p2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.p1 p {
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.p1 span {
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.p2 p{ 
+   font-size: 50px;
+}
+.p2{
+    height: 90vh;
+    display: grid;  
+}
+.p3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.p3 div{
+    margin-left: 200px;
+}
+footer{
+    margin-top: 20px;
+    height: 50vh;
+    display: grid;
+
+}
+
+.menuopen{
+    background-color: #000;
+    color: #fff;
+    margin-top: 100px;
+}
+.menuopen nav {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    cursor: pointer;
+}
+.menuopen aside img{
+    height: 700px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex section{
+    margin-left: 20px;
+    display: grid; 
+}
+.flex section h1{
+    font-size: 50px;
+}
+section main{
+    display: gridf;
+}
+section main a{
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    text-decoration: none   
+}
+section main a:hover {
+    text-decoration: underline;
+}
